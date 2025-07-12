@@ -1,0 +1,83 @@
+2025-07-12 02:38:03,131 - INFO - WebHook receiver starting...
+2025-07-12 02:38:03,134 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://172.19.0.4:9000
+2025-07-12 02:38:03,134 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 02:38:14,912 - INFO - 142.251.222.59 - - [12/Jul/2025 02:38:14] "GET /health HTTP/1.1" 200 -
+2025-07-12 02:38:27,554 - INFO - WebHook receiver starting...
+2025-07-12 02:38:27,556 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://172.19.0.4:9000
+2025-07-12 02:38:27,556 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 02:39:13,533 - INFO - WebHook received: {
+  "object_kind": "push",
+  "project": {
+    "name": "test-project"
+  },
+  "ref": "refs/heads/main"
+}
+2025-07-12 02:39:13,533 - INFO - Push event detected for project: test-project, branch: main
+2025-07-12 02:39:13,585 - ERROR - Backup failed for test-project: tee: /Users/shinlab/Desktop/gitlab-backup/backup.log: No such file or directory
+tee: /Users/shinlab/Desktop/gitlab-backup/backup.log: No such file or directory
+../backup/backup.sh: line 29: docker: command not found
+
+2025-07-12 02:39:13,586 - INFO - 142.251.222.59 - - [12/Jul/2025 02:39:13] "POST /hook HTTP/1.1" 200 -
+2025-07-12 02:39:57,825 - INFO - WebHook receiver starting...
+2025-07-12 02:39:57,827 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://172.19.0.4:9000
+2025-07-12 02:39:57,827 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 02:40:30,359 - INFO - WebHook received: {
+  "object_kind": "push",
+  "project": {
+    "name": "test-project"
+  },
+  "ref": "refs/heads/main"
+}
+2025-07-12 02:40:30,359 - INFO - Push event detected for project: test-project, branch: main
+2025-07-12 02:40:30,399 - ERROR - Backup failed for test-project: ../backup/backup.sh: line 30: docker: command not found
+
+2025-07-12 02:40:30,400 - INFO - 142.251.222.59 - - [12/Jul/2025 02:40:30] "POST /hook HTTP/1.1" 200 -
+2025-07-12 02:40:39,753 - INFO - WebHook received: {
+  "object_kind": "push",
+  "project": {
+    "name": "test-project"
+  },
+  "ref": "refs/heads/main"
+}
+2025-07-12 02:40:39,754 - INFO - Push event detected for project: test-project, branch: main
+2025-07-12 02:40:39,764 - ERROR - Backup failed for test-project: ../backup/backup.sh: line 30: docker: command not found
+
+2025-07-12 02:40:39,765 - INFO - 142.251.222.59 - - [12/Jul/2025 02:40:39] "POST /hook HTTP/1.1" 200 -
+2025-07-12 02:42:38,141 - INFO - WebHook receiver starting...
+2025-07-12 02:42:38,143 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://172.19.0.4:9000
+2025-07-12 02:42:38,143 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 02:43:14,184 - INFO - WebHook receiver starting...
+2025-07-12 02:43:14,186 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://172.19.0.4:9000
+2025-07-12 02:43:14,186 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 02:43:24,702 - INFO - WebHook received: {
+  "object_kind": "push",
+  "project": {
+    "name": "test-project"
+  },
+  "ref": "refs/heads/main"
+}
+2025-07-12 02:43:24,703 - INFO - Push event detected for project: test-project, branch: main
+2025-07-12 02:43:24,705 - INFO - Backup request created for test-project
+2025-07-12 02:43:24,706 - INFO - 142.251.222.59 - - [12/Jul/2025 02:43:24] "POST /hook HTTP/1.1" 200 -
+2025-07-12 02:43:51,927 - INFO - WebHook receiver starting...
+2025-07-12 02:43:51,929 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9000
+ * Running on http://172.19.0.4:9000
+2025-07-12 02:43:51,929 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-12 02:48:02,606 - INFO - 142.251.222.59 - - [12/Jul/2025 02:48:02] "GET /health HTTP/1.1" 200 -
